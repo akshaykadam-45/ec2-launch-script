@@ -2,7 +2,7 @@
 
 This Bash script allows you to launch an AWS EC2 instance by selecting an operating system (Ubuntu or Amazon Linux) interactively. It automatically assigns the appropriate AMI and sets a Name tag for the instance.
 
-## 📌 Features
+## 📌 Feature
 
 - Interactive OS selection (Ubuntu or Amazon Linux)
 - Automatically sets the instance name based on OS
