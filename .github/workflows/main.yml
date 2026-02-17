@@ -1,0 +1,10 @@
+name: my-workflow
+on: push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: checkout-code
+        uses: actions/checkout@v6
+      - name: run-script
+        run: echo "hello world"
